@@ -17,7 +17,7 @@ logo = var.ALIVE_LOGO
 logoyins = random.choice(
         [
             "https://telegra.ph/file/d6f92c979ad96b2031cba.png",
-            "https://telegra.ph/file/6213d2673486beca02967.png"",
+            "https://telegra.ph/file/6213d2673486beca02967.png",
             "https://telegra.ph/file/392f69c8717c91b1e8a3b.jpg",
             "https://telegra.ph/file/4c5b756dd13d7a88c866b.jpg",
         ]
@@ -85,7 +85,7 @@ async def inline_handler(event):
                 0,
                 "image/jpeg",
                 []),
-            text="**Way-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [AyiinXd](https://t.me/AyiinXd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @WayChatss\n✧ **ᴄʜᴀɴɴᴇʟ :** [Ayiin-Userbot](https://t.me/waymethod)\n➖➖➖➖➖➖➖➖➖➖",
+            text="**Way-Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [WayMethod](https://t.me/waymethodd)\n✧ **sᴜᴘᴘᴏʀᴛ :** @WayChatss\n✧ **ᴄʜᴀɴɴᴇʟ :** [Ayiin-Userbot](https://t.me/waymethod)\n➖➖➖➖➖➖➖➖➖➖",
             buttons=[
                 [
                     custom.Button.url(
@@ -134,7 +134,7 @@ async def inline_handler(event):
         result = builder.article(
             title="🔥 ᴡᴀʏ-ᴜsᴇʀʙᴏᴛ 🔥",
             description="Way - Userbot | Telethon",
-            url="https://t.me/waymethod",
+            url="https://t.me/waymethodd",
             thumb=InputWebDocument(
                 var.INLINE_PIC,
                 0,

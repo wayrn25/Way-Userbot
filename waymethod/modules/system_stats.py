@@ -103,8 +103,8 @@ async def psu(event):
     help_string += "**Iɴғᴏʀᴍᴀsɪ Mᴇsɪɴ**\n"
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
-    help_string += f"**Pʏ-Aʏɪɪɴ :** `0.4.6`\n"
-    help_string += f"**Aʏɪɪɴ-Vᴇʀsɪᴏɴ :** `{var.BOT_VER} [{HOSTED_ON}]`"
+    help_string += f"**Pʏ-Wᴀʏ :** `0.4.6`\n"
+    help_string += f"**Wᴀʏ-Vᴇʀsɪᴏɴ :** `{var.BOT_VER} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
@@ -177,20 +177,20 @@ async def bot_ver(event):
 async def amireallyalive(alive):
     user = await alive.client.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
-    await alive.edit("😈")
+    await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [Aʏɪɪɴ-Usᴇʀʙᴏᴛ](https://github.com/AyiinXd/Ayiin-Userbot)**\n\n"
+        f"**Tʜᴇ Wᴀʏ-Usᴇʀʙᴏᴛ**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
-        f"{emoji} **Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `{var.BOT_VER}`\n"
+        f"{emoji} **Wᴀʏ Vᴇʀsɪᴏɴ :** `{var.BOT_VER}`\n"
         f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         f"{emoji} **Dᴇᴘʟᴏʏ Oɴ :** {HOSTED_ON}\n"
         f"{emoji} **Mᴏᴅᴜʟᴇs :** `{len(modules)} Modules` \n"
         f"{emoji} **Oᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id}) \n"
         f"{emoji} **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
         f"{emoji} **PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `Unlimited` \n"
-        f"{emoji} **Pʏ-Aʏɪɪɴ Vᴇʀsɪᴏɴ :** `0.4.6`\n"
+        f"{emoji} **Pʏ-Wᴀʏ Vᴇʀsɪᴏɴ :** `0.4.6`\n"
         f"{emoji} **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
